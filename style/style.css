@@ -1,0 +1,217 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.fundo{
+    background-image: linear-gradient(45deg,black, crimson);
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.igual{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.zero{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+@media (max-width:700px) {
+    
+ *{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: linear-gradient(black,black);
+    height: 200vh;
+    width: 700px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0%;
+    width: 700px;
+    height: 100vh;
+    left: 0%;
+    transform: translate(-00%,-0%);
+    border-radius: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+.igual{
+    width: 150px;
+    height: 600px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+td{
+    background-color: rgb(31,31,31);
+}
+.zero{
+    width: 705px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.botao{
+    width: 160px;
+    height: 180px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+.botao:hover{
+    background-color: #333
+}
+#resultado{
+    background-color: #333;
+    width: 670px;
+    height: 100px;
+    margin: 0px;
+    font-size: 80px;
+    color: #fff;
+    text-align: right;
+    padding: 0px;
+    margin-top: 50px;
+}
+}
+
+@media (max-width:1023px) and (min-width:701px) {
+    
+    *{
+       margin: 0;
+       padding: 0;
+   }
+   .fundo{
+       background-image: linear-gradient(black,black);
+       height: 150vh;
+       width: 1023px;
+       color: #fff;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+   }
+   .calculadora{
+       position: absolute;
+       background-color: rgba(0, 0, 0, 0);
+       top: 0%;
+       width: 1023px;
+       height: 100vh;
+       left: 0%;
+       transform: translate(-00%,-0%);
+       border-radius: 0px;
+       padding: 0px;
+       margin-left: 10px;
+   }
+   .igual{
+       width: 150px;
+       height: 600px;
+       font-size: 25px;
+       cursor: pointer;
+       margin: 3px;
+       background-color: rgb(31,31,31);
+       border: none;
+       color: #fff;
+   }
+   td{
+       background-color: rgb(31,31,31);
+   }
+   .zero{
+       width: 705px;
+       height: 50px;
+       font-size: 25px;
+       cursor: pointer;
+       margin: 3px;
+       background-color: rgb(31,31,31);
+       border: none;
+       color: #fff;
+   }
+   .botao{
+       width: 245px;
+       height: 180px;
+       font-size: 50px;
+       cursor: pointer;
+       margin: 3px;
+       background-color: rgb(31,31,31);
+       border: none;
+       color: #fff;
+   }
+   .botao:hover{
+       background-color: #333
+   }
+   #resultado{
+       background-color: #333;
+       width: 1010px;
+       height: 100px;
+       margin: 0px;
+       font-size: 80px;
+       color: #fff;
+       text-align: right;
+       padding: 0px;
+       margin-top: 50px;
+   }
+   }
